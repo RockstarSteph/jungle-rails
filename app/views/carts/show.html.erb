@@ -4,6 +4,8 @@
     <h1>My Cart</h1>
   </header>
 
+
+<% if !cart.empty? %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +50,10 @@
       <% end %>
     </div>
   </div>
+<% else %>
 
+Cart is Empty! <br>
+Please click the link below to choose a product to add to your cart!<br>
+<%= link_to "Products", root_path %>
+<%end%>
 </section>
