@@ -1,9 +1,9 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. Users can view all products, select single product, give reviews, rate products and delete their own reviews. Cart checkout and order confirmation also implemented.
 
 
-## Setup
+## Setup to clone
 
 1. Fork & Clone
 2. Run `bundle install` to install dependencies
@@ -26,3 +26,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+!(/screenshots/homepage.png) "Homepage with all products"
+!(/screenshots/product_page.png) "Single product with all reviews + review form with rating"
+!(/screenshots/cart.png) "Cart checkout"
+!(/screenshots/order_confirmation) "Order confirmation"
