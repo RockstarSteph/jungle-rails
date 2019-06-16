@@ -28,6 +28,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Screenshots
+
 ![Homepage with all products](/screenshots/homepage.png)
 ![Single product with all reviews + review form with rating](/screenshots/product_page.png)
 ![Cart checkout](/screenshots/cart.png)
