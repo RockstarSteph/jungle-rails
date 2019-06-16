@@ -28,7 +28,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Screenshots
-!(/screenshots/homepage.png) "Homepage with all products"
-!(/screenshots/product_page.png) "Single product with all reviews + review form with rating"
-!(/screenshots/cart.png) "Cart checkout"
-!(/screenshots/order_confirmation) "Order confirmation"
+![Homepage with all products](/screenshots/homepage.png)
+![Single product with all reviews + review form with rating](/screenshots/product_page.png)
+![Cart checkout](/screenshots/cart.png)
+![Order confirmation](/screenshots/order_confirmation)
