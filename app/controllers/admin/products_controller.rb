@@ -38,4 +38,7 @@ http_basic_authenticate_with name: "Jungle", password: "book", except: :index
     )
   end
 
+  # def review_show
+  #   @review = Review.show
+
 end

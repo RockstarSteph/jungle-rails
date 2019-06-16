@@ -134,3 +134,30 @@ cat3.products.create!({
 
 
 puts "DONE!"
+
+## REVIEWS
+
+User.destroy_all
+
+
+10.times do
+  User.create!({
+    name: Faker::Internet.user_name,
+    email: Faker::Internet.email,
+    password_digest: Faker::Internet.password
+  })
+end
+
+Review.destroy_all
+
+product_ids = Product.all.pluck(:id)
+user_ids = User.all.pluck(:id)
+
+10.times do
+  Review.create!({
+    product_id: product_ids.sample,
+    user_id: user_ids.sample,
+    description: Faker::Hipster.sentence,
+    rating:Faker::Number.between(1, 5)
+  })
+end
