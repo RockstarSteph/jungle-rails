@@ -30,6 +30,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Screenshots
 
 ![Homepage with all products](/screenshots/homepage.png)
+
 ![Single product with all reviews + review form with rating](/screenshots/product_page.png)
+
 ![Cart checkout](/screenshots/cart.png)
-![Order confirmation](/screenshots/order_confirmation)
+
+![Order confirmation](/screenshots/order_confirmation.png)
